@@ -1,0 +1,24 @@
+<!--pages/message/message.wxml-->
+<view>
+  {{myName}}
+  <image src='../image/chart.jpg'></image>
+</view>
+<view wx:for="{{newsList}}">
+    <view wx:if="{{item.name === 2}}">
+      line：{{item.name}}
+    </view>
+    <view wx:elif="{{item.name === 1}}">
+      第{{item.name}}行
+    </view>
+    <view wx:else>
+      {{item.name}}
+    </view>
+</view>
+
+<view bindtap='add'>
+  添加
+</view>
+
+<text>
+  消息列表
+</text>

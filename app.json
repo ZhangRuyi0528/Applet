@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/demo1/demo1",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/message/message"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#31cf32",
+    "navigationBarTitleText": "贝壳找房",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#f00",
+    "selectedColor": "#00f",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "首页",
+        "iconPath": "pages/image/home.jpg",
+        "selectedIconPath": "pages/image/chart.jpg"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "我的消息",
+        "iconPath": "pages/image/more.jpg",
+        "selectedIconPath": "pages/image/chart.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人中心",
+        "iconPath": "pages/image/myshow.jpg",
+        "selectedIconPath": "pages/image/chart.jpg"
+      }
+    ],
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true
+  }
+}
