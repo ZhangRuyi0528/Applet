@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
-	"appid": "touristappid",
-	"projectname": "chart",
+	"appid": "wxac4b43e9a1378c3e",
+	"projectname": "Applet",
 	"condition": {
 		"search": {
 			"current": -1,
